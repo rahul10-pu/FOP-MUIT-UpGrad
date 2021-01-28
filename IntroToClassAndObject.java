@@ -39,7 +39,7 @@ public class IntroToClassAndObject {
     }
 }
 class Mobile {
-    //define all the entity/properties/attributes
+    //define all the entity/properties/attributes/instance variable
     int size;
     boolean mic;
     boolean speaker;
@@ -49,7 +49,8 @@ class Mobile {
     int button;
     //feature
     void music(String songName){
-        if (speaker==true){
+        int speaker=3;
+        if (this.speaker==true){
             System.out.println("You song: "+songName+" is playing now");
         }else{
             System.out.println("O garib aadmi, dusra mobile lele..speaker nhi hai isme");
