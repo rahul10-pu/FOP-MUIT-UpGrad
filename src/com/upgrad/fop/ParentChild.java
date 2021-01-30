@@ -78,4 +78,7 @@ Access modifer
 class LapTop{
     public String name="HP";
     public int ram=12;
+    void getLaptopConfig(){
+        System.out.println("Model Name of the laptop is "+name+" with configuration of Ram size "+ram);
+    }
 }
